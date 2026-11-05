@@ -3,7 +3,21 @@
 > 一款用 AI 编码代理**全程驱动开发**的吸血鬼幸存者 Like —— Godot 4.6 / GDScript，约 1.4 万行代码，全部 UI 与素材管线代码构建（`.tscn` 只有一个挂脚本的空场景）。
 > A Vampire-Survivors-like built end-to-end by an AI coding agent, with a headless self-test harness as its backbone.
 
-![battle](docs/screenshots/03_battle.png)
+<p align="center">
+  <img src="docs/assets/banner.png" width="1280" alt="Abyss Survivor banner">
+</p>
+
+<p align="center">
+  <a href="https://godotengine.org/download"><img src="https://img.shields.io/badge/Godot-4.6--stable-478CBF?logo=godotengine&logoColor=white" alt="Godot 4.6"></a>
+  <img src="https://img.shields.io/badge/GDScript-14k%2B_lines-555555" alt="14k lines">
+  <a href="https://github.com/xiaoheizi112/AbyssSurvivor/releases"><img src="https://img.shields.io/badge/Windows-x64%20download-blue?logo=windows&logoColor=white" alt="Windows download"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT"></a>
+  <img src="https://img.shields.io/badge/AI--pair--developed-Claude%20Code-violet" alt="AI pair developed">
+</p>
+
+<p align="center">
+  <img src="docs/assets/demo.gif" width="854" alt="gameplay demo">
+</p>
 
 ## 下载即玩
 
