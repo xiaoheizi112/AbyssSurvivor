@@ -1,0 +1,32 @@
+# Godot 缓存与导入产物(克隆后 --import 自动重建)
+.godot/
+
+# 构建产物(exe 走 GitHub Release 分发,不进仓库)
+export/
+*.tmp
+
+# 调试截图目录(由 --ui-shot / --codex-shot 按需生成,可整删重建;
+# README 选用的截图已固化到 docs/screenshots/)
+_ui_shots/
+_codex_shots/
+
+# map_preview/ 只提交 .py 生成器;目检产物是一次性的
+# (含 xiaoheizi_template_compare.png / _sheets_8x.png / _old_xiaoheizi_idle.png 旧版备份)
+map_preview/__pycache__/
+map_preview/*.png
+map_preview/*.png.import
+
+# 素材上游备份包(CC0,但运行时真正加载的是 assets/ 与 resource/pixel32/ 的成品;
+# 整包入库徒增 ~11MB)
+resource/kenney_cc0/
+resource/bgm_cc0/
+
+# 与游戏无关的本地任务工具数据
+pm-data.json
+backups/
+.claude/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
